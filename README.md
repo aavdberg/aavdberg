@@ -1,1 +1,1 @@
-My name is Andre and today is Wednesday, August 26, 11:29 AM GMT+2.
+My name is Andre and today is Wednesday, 26 August, 11:38 CEST.
