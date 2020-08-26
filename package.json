@@ -1,0 +1,22 @@
+{
+  "name": "aavdberg",
+  "version": "1.0.0",
+  "description": "<!--\r **aavdberg/aavdberg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aavdberg/aavdberg.git"
+  },
+  "author": "Andre van den Berg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aavdberg/aavdberg/issues"
+  },
+  "homepage": "https://github.com/aavdberg/aavdberg#readme",
+  "dependencies": {
+    "mustache": "^4.0.1"
+  }
+}
