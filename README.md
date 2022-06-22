@@ -1,7 +1,7 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
 
 
-<p>Welcome to my page! </br> I'm Andre, Blogger of TheCloudAdminEU blog site from <img src="https://image.flaticon.com/icons/svg/323/323275.svg" width="13"/> <b>Deventer, Netherlands</b>. </p>
+<p>Welcome to my page! </br> I'm Andre, Blogger of TheCloudAdminEU blog site from <img src="https://image.flaticon.com/icons/svg/323/323275.svg" width="13"/> <b>Ermelo, Netherlands</b>. </p>
 <h3>Things I code with</h3>
 <p>
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
