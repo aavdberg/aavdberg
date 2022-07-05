@@ -13,7 +13,7 @@
   <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 </p>
 
-<h3>Welcome to <img src="https://image.flaticon.com/icons/svg/323/323275.svg" width="13"/> Deventer!</h3>
+<h3>Welcome to <img src="https://image.flaticon.com/icons/svg/323/323275.svg" width="13"/> Ermelo!</h3>
 
 
 <h3>Where to find me</h3>
