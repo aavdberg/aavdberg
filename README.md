@@ -1,7 +1,7 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey, nice to see you.</h1>
 
 
-<p>Welcome to my page! </br> I'm Andre, Blogger of TheCloudAdminEU blog site from <img src="https://image.flaticon.com/icons/svg/323/323275.svg" width="13"/> <b>Ermelo, Netherlands</b>. </p>
+<p>Welcome to my page! </br> I'm Andre, Blogger of TheCloudAdminEU blog site from <img src="https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-svg/nl.svg" width="13"/> <b>Ermelo, Netherlands</b>. </p>
 <h3>Things I code with</h3>
 <p>
   <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
@@ -13,7 +13,7 @@
   <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
 </p>
 
-<h3>Welcome to <img src="https://image.flaticon.com/icons/svg/323/323275.svg" width="13"/> Ermelo!</h3>
+<h3>Welcome to <img src="https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-svg/nl.svg" width="13"/> Ermelo!</h3>
 
 
 <h3>Where to find me</h3>
