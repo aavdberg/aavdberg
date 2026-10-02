@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">A landscape of the Netherlands and Ukraine</title>
+  <desc id="desc">A Dutch windmill and tulips meet Ukrainian sunflower fields and a traditional domed church beneath a shared sky.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#83c9ed"/>
+      <stop offset="1" stop-color="#e8f4d9"/>
+    </linearGradient>
+    <linearGradient id="horizon" x2="1">
+      <stop stop-color="#91b96b"/>
+      <stop offset=".48" stop-color="#9dbb65"/>
+      <stop offset="1" stop-color="#b6a94c"/>
+    </linearGradient>
+    <linearGradient id="river" x2="0" y2="1">
+      <stop stop-color="#73c3d3"/>
+      <stop offset="1" stop-color="#368eaa"/>
+    </linearGradient>
+    <linearGradient id="blend" x2="1">
+      <stop stop-color="#f5fbff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff5d5" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ffe8a8" stop-opacity="0"/>
+    </linearGradient>
+    <g id="tulip">
+      <path d="M0 0v30" fill="none" stroke="#39794e" stroke-width="3"/>
+      <path d="M0 17c-9-10-12-1 0 3 12-7 8-13 0-3" fill="#4a985b"/>
+      <path d="M0 2c-12-12-15 1-6 7-1-8 4-7 6-1 2-6 7-7 6 1C15 3 12-10 0 2Z" fill="currentColor"/>
+    </g>
+    <g id="sunflower">
+      <g fill="#ffc928">
+        <ellipse cy="-15" rx="4.5" ry="9"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(45)"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(90)"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(135)"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(180)"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(225)"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(270)"/>
+        <ellipse cy="-15" rx="4.5" ry="9" transform="rotate(315)"/>
+      </g>
+      <circle r="7.5" fill="#51361f"/>
+      <circle r="5.5" fill="#704525"/>
+    </g>
+  </defs>
+
+  <path fill="url(#sky)" d="M0 0h1200v245H0z"/>
+  <path fill="#fff" opacity=".55" d="M76 72c5-17 27-20 37-5 17-15 42-5 43 13h-93c0-3 5-7 13-8Zm670-37c5-16 25-19 35-5 15-13 37-5 39 12h-86c1-4 5-6 12-7Zm327 65c5-13 22-16 30-4 13-11 31-4 33 10h-73c1-3 4-5 10-6Z"/>
+
+  <path fill="#80ad66" d="M0 206c127-36 235 7 354-8 122-15 217-45 326-10 131 42 237-7 520-25v197H0Z"/>
+  <path fill="url(#horizon)" d="M0 248c129-40 237 5 356-9 116-14 216-47 320-8 136 51 252-10 524-22v151H0Z"/>
+  <path fill="#4f8e62" d="M0 282c139-27 227 4 348-9 122-13 236-31 347-4 137 34 264-9 505-15v106H0Z"/>
+
+  <g fill="#f7f1dc" opacity=".8">
+    <path d="m112 215 18-28 18 28Z"/><path d="M117 215h26v24h-26z"/>
+    <path d="m507 214 15-23 15 23Z"/><path d="M511 214h22v21h-22z"/>
+    <path d="m1080 200 19-27 19 27Z"/><path d="M1085 200h28v26h-28z"/>
+  </g>
+
+  <path fill="url(#river)" d="M0 300c124-30 218 17 331-2 104-18 145 6 187 62H0Z"/>
+  <path fill="none" stroke="#c3eff1" stroke-width="4" opacity=".75" d="M20 320c86-17 155 12 240 1m-176 24c69-13 122 4 189-2"/>
+
+  <g aria-label="Dutch windmill" stroke="#fff5dc" stroke-linejoin="round">
+    <path fill="#efe5c7" stroke-width="3" d="m276 284 11-101 59-7 12 108Z"/>
+    <path fill="#8b5435" stroke-width="3" d="m280 183 36-39 42 34Z"/>
+    <path fill="#9c623a" d="M298 214h13v22h-13zm28-1h13v22h-13z" stroke="none"/>
+    <path fill="#70462f" d="M308 284v-37a9 9 0 0 1 18 0v37Z" stroke="none"/>
+    <g fill="#f5ecd5" stroke="#795337" stroke-width="5">
+      <path d="m318 161-11-8-60-78 13-10 67 77Z"/>
+      <path d="m318 161 5-12 76-61 9 14-76 68Z"/>
+      <path d="m318 161 12 5 62 77-14 9-67-76Z"/>
+      <path d="m318 161-5 12-76 62-9-14 76-67Z"/>
+    </g>
+    <circle cx="318" cy="161" r="10" fill="#9b6037" stroke="#f3e8cb" stroke-width="3"/>
+  </g>
+
+  <g aria-label="Tulip field">
+    <use href="#tulip" transform="translate(31 303) scale(1.2)" style="color:#d94c61"/>
+    <use href="#tulip" transform="translate(65 286) scale(.9)" style="color:#f3c64d"/>
+    <use href="#tulip" transform="translate(108 312) scale(1.15)" style="color:#e8757b"/>
+    <use href="#tulip" transform="translate(153 290) scale(.85)" style="color:#d94c61"/>
+    <use href="#tulip" transform="translate(190 318) scale(1.3)" style="color:#f3c64d"/>
+    <use href="#tulip" transform="translate(229 296) scale(.95)" style="color:#d94c61"/>
+    <use href="#tulip" transform="translate(379 315) scale(1.2)" style="color:#e8757b"/>
+    <use href="#tulip" transform="translate(426 291) scale(.9)" style="color:#f3c64d"/>
+    <use href="#tulip" transform="translate(462 322) scale(1.35)" style="color:#d94c61"/>
+    <use href="#tulip" transform="translate(517 300) scale(1.05)" style="color:#e8757b"/>
+    <use href="#tulip" transform="translate(562 325) scale(1.25)" style="color:#f3c64d"/>
+  </g>
+
+  <g aria-label="Traditional Ukrainian church">
+    <path fill="#f6e8c9" stroke="#946b4b" stroke-width="3" d="M818 190h167v103H818z"/>
+    <path fill="#fff8e9" d="M835 204h133v87H835z"/>
+    <path fill="#315b83" d="m800 200 101-63 101 63v12H800Z"/>
+    <path fill="#274e75" d="M876 190v-61h51v61Z"/>
+    <path fill="#356c91" d="M815 190v-52h27v52zm146 0v-52h27v52z"/>
+    <g fill="#f4c342" stroke="#a87422" stroke-width="2">
+      <path d="M888 132c-22-22-13-49 13-58 26 9 35 36 13 58-7 7-19 7-26 0Z"/>
+      <path d="M809 143c-17-17-10-38 10-45 20 7 27 28 10 45-5 5-15 5-20 0Z"/>
+      <path d="M966 143c-17-17-10-38 10-45 20 7 27 28 10 45-5 5-15 5-20 0Z"/>
+    </g>
+    <g stroke="#f5d06a" stroke-width="3" stroke-linecap="round">
+      <path d="M901 74V48m-10 8h20m-10-8-5-7m5 7 5-7"/>
+      <path d="M819 99V80m-8 6h16m-8-6-4-6m4 6 4-6"/>
+      <path d="M976 99V80m-8 6h16m-8-6-4-6m4 6 4-6"/>
+    </g>
+    <g fill="#5b7890">
+      <path d="M849 228a12 12 0 0 1 24 0v26h-24zm40 0a12 12 0 0 1 24 0v26h-24zm40 0a12 12 0 0 1 24 0v26h-24z"/>
+    </g>
+    <path fill="#946b4b" d="M889 257h27v36h-27z"/>
+    <circle cx="909" cy="276" r="2" fill="#f5d06a"/>
+  </g>
+
+  <path fill="url(#blend)" d="M0 0h1200v360H0z"/>
+
+  <g aria-label="Ukrainian sunflower fields">
+    <path fill="none" stroke="#d8a934" stroke-width="3" opacity=".8" d="M594 359c60-51 103-45 166 1m-119-1c47-37 86-41 126-32m-64 32c104-82 186-63 273 0m-209 0c91-61 164-48 244-21"/>
+    <g stroke="#4f7840" stroke-width="3">
+      <path d="M660 340v-49m55 58v-71m67 75v-52m210 17v-54m58 58v-78m68 82v-53m-401 83v-40m329 40v-43"/>
+    </g>
+    <g>
+      <use href="#sunflower" transform="translate(660 291)"/>
+      <use href="#sunflower" transform="translate(715 268) scale(1.1)"/>
+      <use href="#sunflower" transform="translate(782 289) scale(.92)"/>
+      <use href="#sunflower" transform="translate(990 286) scale(.92)"/>
+      <use href="#sunflower" transform="translate(1048 259) scale(1.1)"/>
+      <use href="#sunflower" transform="translate(1116 291)"/>
+      <use href="#sunflower" transform="translate(598 329) scale(.8)"/>
+      <use href="#sunflower" transform="translate(835 335) scale(.86)"/>
+      <use href="#sunflower" transform="translate(928 328) scale(.82)"/>
+      <use href="#sunflower" transform="translate(1164 331) scale(.85)"/>
+    </g>
+    <g fill="#5b8545">
+      <path d="M660 319q-23-18-23 3 15 6 23-3Zm0 7q22-19 24 2-14 9-24-2Zm55-26q-23-18-23 3 15 6 23-3Zm0 7q22-19 24 2-14 9-24-2Zm333 36q-22-18-23 3 15 6 23-3Zm0 7q22-19 24 2-14 9-24-2Zm58-60q-23-18-23 3 15 6 23-3Zm0 7q22-19 24 2-14 9-24-2Z"/>
+    </g>
+  </g>
+
+  <path fill="#fff" opacity=".5" d="M0 0h1200v8H0z"/>
+</svg>

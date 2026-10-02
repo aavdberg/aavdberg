@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./images/netherlands-ukraine-banner.svg" width="100%" alt="Dutch windmill and tulips beside Ukrainian sunflower fields and a traditional church" />
+</p>
+
 <h1 align="center">Hey there 👋</h1>
 
 <p align="center">
@@ -50,5 +54,5 @@
 <hr />
 
 <p align="center">
-  <sub>Last refreshed: Friday, 2 October 2026 at 09:22 CEST · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
+  <sub>Last refreshed: Friday, 2 October 2026 at 09:23 CEST · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
 </p>

@@ -108,3 +108,17 @@ test('profile README includes the user-provided bio and local Home Assistant log
     );
   }
 });
+
+test('profile README starts with the local Netherlands–Ukraine banner', async () => {
+  const [readme, template] = await Promise.all([
+    fs.readFile(README_PATH, 'utf8'),
+    fs.readFile(TEMPLATE_PATH, 'utf8'),
+  ]);
+  const bannerPath = path.join(__dirname, '..', 'images', 'netherlands-ukraine-banner.svg');
+  const bannerMarkup =
+    /<img src="\.\/images\/netherlands-ukraine-banner\.svg" width="100%" alt="Dutch windmill and tulips beside Ukrainian sunflower fields and a traditional church" \/>/;
+
+  await fs.access(bannerPath);
+  assert.match(template, new RegExp(`^<p align="center">\\r?\\n  ${bannerMarkup.source}`));
+  assert.match(readme, new RegExp(`^<p align="center">\\r?\\n  ${bannerMarkup.source}`));
+});
