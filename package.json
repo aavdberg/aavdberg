@@ -4,7 +4,8 @@
   "description": "<!--\r **aavdberg/aavdberg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node index.js",
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,6 @@
   },
   "homepage": "https://github.com/aavdberg/aavdberg#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
-    "mustache": "^4.0.1",
-    "node-fetch": "^2.6.0",
-    "puppeteer": "^5.2.1"
+    "mustache": "^4.0.1"
   }
 }
