@@ -82,8 +82,29 @@ test('profile README displays the local Ermelo logo and Netherlands flag inline'
   await fs.access(logoPath);
   await fs.access(flagPath);
   const locationLine =
-    /based in Ermelo <a href="https:\/\/www\.ermelo\.nl\/"><img src="\.\/images\/ermelo-logo\.svg" width="64" alt="Gemeente Ermelo" \/><\/a>, Netherlands <img src="\.\/images\/flag-netherlands\.svg" width="20" alt="Netherlands flag" \/>/;
+    /Based in Ermelo <a href="https:\/\/www\.ermelo\.nl\/"><img src="\.\/images\/ermelo-logo\.svg" width="64" alt="Gemeente Ermelo" \/><\/a>, Netherlands <img src="\.\/images\/flag-netherlands\.svg" width="20" alt="Netherlands flag" \/>/;
 
   assert.match(template, locationLine);
   assert.match(readme, locationLine);
+});
+
+test('profile README includes the user-provided bio and local Home Assistant logo', async () => {
+  const [readme, template] = await Promise.all([
+    fs.readFile(README_PATH, 'utf8'),
+    fs.readFile(TEMPLATE_PATH, 'utf8'),
+  ]);
+  const logoPath = path.join(__dirname, '..', 'images', 'home-assistant-logo.png');
+
+  await fs.access(logoPath);
+  for (const content of [template, readme]) {
+    assert.match(content, /over 20 years of IT experience/);
+    assert.match(content, /multiple Microsoft certifications/);
+    assert.match(content, /scalable, flexible, and secure cloud-native solutions/);
+    assert.match(content, /reusable Bicep blueprints/);
+    assert.match(content, /Microsoft MVP for Windows and Devices for IT/);
+    assert.match(
+      content,
+      /src="\.\/images\/home-assistant-logo\.png" width="80" alt="Home Assistant"/
+    );
+  }
 });

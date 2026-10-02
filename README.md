@@ -1,7 +1,15 @@
 <h1 align="center">Hey there 👋</h1>
 
 <p align="center">
-  I'm André, a blogger at <a href="https://www.thecloudadmin.eu/">TheCloudAdminEU</a>, based in Ermelo <a href="https://www.ermelo.nl/"><img src="./images/ermelo-logo.svg" width="64" alt="Gemeente Ermelo" /></a>, Netherlands <img src="./images/flag-netherlands.svg" width="20" alt="Netherlands flag" />.
+  I'm André, a DevOps engineer and Microsoft Azure specialist with over 20 years of IT experience and multiple Microsoft certifications. I help organizations build scalable, flexible, and secure cloud-native solutions on Azure.
+</p>
+
+<p align="center">
+  My work includes migrating on-premises environments, databases, and web servers to Azure, as well as creating reusable Bicep blueprints for consistent deployments across managed customer environments. I enjoy sharing knowledge and working as part of a team, and was recognized as a Microsoft MVP for Windows and Devices for IT.
+</p>
+
+<p align="center">
+  I also blog at <a href="https://www.thecloudadmin.eu/">TheCloudAdminEU</a> and build custom Home Assistant integrations. Based in Ermelo <a href="https://www.ermelo.nl/"><img src="./images/ermelo-logo.svg" width="64" alt="Gemeente Ermelo" /></a>, Netherlands <img src="./images/flag-netherlands.svg" width="20" alt="Netherlands flag" />.
 </p>
 
 <p align="center">
@@ -22,6 +30,10 @@
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white" />
 </p>
 
+<p align="center">
+  <a href="https://www.home-assistant.io/"><img src="./images/home-assistant-logo.png" width="80" alt="Home Assistant" /></a>
+</p>
+
 <h2 align="center">Home Assistant</h2>
 
 <p align="center">
@@ -38,5 +50,5 @@
 <hr />
 
 <p align="center">
-  <sub>Last refreshed: Friday, 2 October 2026 at 08:20 CEST · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
+  <sub>Last refreshed: Friday, 2 October 2026 at 09:22 CEST · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
 </p>
