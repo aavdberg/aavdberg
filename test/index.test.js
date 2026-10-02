@@ -71,14 +71,19 @@ test('checked-in README matches the template and its refresh timestamp', async (
   );
 });
 
-test('profile README uses the local Ermelo logo asset', async () => {
+test('profile README displays the local Ermelo logo and Netherlands flag inline', async () => {
   const [readme, template] = await Promise.all([
     fs.readFile(README_PATH, 'utf8'),
     fs.readFile(TEMPLATE_PATH, 'utf8'),
   ]);
   const logoPath = path.join(__dirname, '..', 'images', 'ermelo-logo.svg');
+  const flagPath = path.join(__dirname, '..', 'images', 'flag-netherlands.svg');
 
   await fs.access(logoPath);
-  assert.match(template, /src="\.\/*images\/ermelo-logo\.svg"/);
-  assert.match(readme, /src="\.\/*images\/ermelo-logo\.svg"/);
+  await fs.access(flagPath);
+  const locationLine =
+    /based in Ermelo <a href="https:\/\/www\.ermelo\.nl\/"><img src="\.\/images\/ermelo-logo\.svg" width="64" alt="Gemeente Ermelo" \/><\/a>, Netherlands <img src="\.\/images\/flag-netherlands\.svg" width="20" alt="Netherlands flag" \/>/;
+
+  assert.match(template, locationLine);
+  assert.match(readme, locationLine);
 });

@@ -1,11 +1,7 @@
-<p align="center">
-  <a href="https://www.ermelo.nl/"><img src="./images/ermelo-logo.svg" width="180" alt="Gemeente Ermelo" /></a>
-</p>
-
 <h1 align="center">Hey there 👋</h1>
 
 <p align="center">
-  I'm André, a blogger at <a href="https://www.thecloudadmin.eu/">TheCloudAdminEU</a>, based in Ermelo, Netherlands.
+  I'm André, a blogger at <a href="https://www.thecloudadmin.eu/">TheCloudAdminEU</a>, based in Ermelo <a href="https://www.ermelo.nl/"><img src="./images/ermelo-logo.svg" width="64" alt="Gemeente Ermelo" /></a>, Netherlands <img src="./images/flag-netherlands.svg" width="20" alt="Netherlands flag" />.
 </p>
 
 <p align="center">
@@ -42,5 +38,5 @@
 <hr />
 
 <p align="center">
-  <sub>Last refreshed: Friday, 2 October 2026 at 08:11 CEST · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
+  <sub>Last refreshed: Friday, 2 October 2026 at 08:20 CEST · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
 </p>
