@@ -54,5 +54,5 @@
 <hr />
 
 <p align="center">
-  <sub>Last refreshed: Wednesday, 4 November 2026 at 13:15 CET · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
+  <sub>Last refreshed: Wednesday, 4 November 2026 at 16:12 CET · Generated from <a href="./main.mustache">main.mustache</a>.</sub>
 </p>
